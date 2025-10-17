@@ -1,0 +1,5 @@
+def make_chocolate(small, big, goal):
+  if goal % 5 <= small and goal <= small + 5 * big:
+    return goal % 5
+  else:
+    return -1
